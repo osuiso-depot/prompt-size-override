@@ -10,6 +10,7 @@
 *   **Hires. fix対応**: Hires. fixが有効な場合、`hr_resize_x`、`hr_resize_y`、`hr_upscale_to_x`、`hr_upscale_to_y`などのHires. fix関連のパラメータもプロンプトから設定できます。
     *   例:
     > #comment line ... #{"width":512,"height":512,"hr_resize_x":1024,"hr_resize_y":1024}#
+    > 
     > a cat
 *   **UIからの有効/無効切り替え**: WebUIの「Settings」タブにある「Prompt Size Override」セクションから、この拡張機能の機能を簡単に有効/無効にできます。
 
@@ -22,6 +23,7 @@
 5.  プロンプト入力欄のコメント行に、生成したい画像の説明と、埋め込み設定をJSON形式で追加します。設定は`#`で囲んでください。
     *   例:
     > #{"width":1280,"height":720}#
+    > 
     > a futuristic city at night
 6.  通常通り画像を生成します。指定した幅と高さで画像が生成されます。
 
@@ -52,3 +54,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ※この雛形の取得元
 英語（http://www.opensource.org/licenses/mit-license.php）
 日本語（http://sourceforge.jp/projects/opensource/wiki/licenses%2FMIT_license）
+
